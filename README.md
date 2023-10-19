@@ -5,4 +5,5 @@ This repository is based on [Gokarma](https://gokarna-hugo.netlify.app/) Hugo th
 ## TODO
 - [X] Deploy site
 - [ ] Populate posts
+- [ ] Add publication Menu (List of publications)
  

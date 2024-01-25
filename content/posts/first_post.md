@@ -54,6 +54,6 @@ sheet.getRange(rowPos, colPos).setFormula(clinicalLinkFormula).setBackground(col
 
 After some hours (days) of coding, testing, and debugging, we got last version. It still needs improvemets, but it works. We have a map of the available space for the samples in the lab. It is not perfect, but it would help to see what changes are needed to make it better, and what things do we have to add. This is how it looks, it takes information from multiple project sheets and color the map for each of them:
 
-![Final Look](/static/images/posts/sample_map/map_final.png)
+![Final Look](/images/posts/sample_map/map_final.png)
 
 [Full Code](https://github.com/cristian2420/LabSampleMap)

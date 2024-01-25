@@ -27,7 +27,7 @@ So, to make the problem easier, we have a spreadsheet with all the samples data 
 
 Vero told me this tanks can have 15 racks, each with 15 boxes, and each box with 100 positions. So, we agreed to have a separate sheet for each tank with this structure (at least as first draft):
 
-!(/static/posts/sample_map/map_structure.png)
+![First Idea](/static/posts/sample_map/map_structure.png)
 
 The idea was to create a nested dictionary with the data from the columns above. That would be our coordinates and we could used to fill the map. The challenging part was to retrieve all the information without innecesary calls to complicated methods. It was like remember how to code from scratch to make it work efficiently. 
 
@@ -54,6 +54,6 @@ sheet.getRange(rowPos, colPos).setFormula(clinicalLinkFormula).setBackground(col
 
 After some hours (days) of coding, testing, and debugging, we got last version. It still needs improvemets, but it works. We have a map of the available space for the samples in the lab. It is not perfect, but it would help to see what changes are needed to make it better, and what things do we have to add. This is how it looks, it takes information from multiple project sheets and color the map for each of them:
 
-!(/static/posts/sample_map/map_final.png)
+![Final Look](/static/posts/sample_map/map_final.png)
 
 [Full Code](https://github.com/cristian2420/LabSampleMap)

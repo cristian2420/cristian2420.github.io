@@ -27,7 +27,7 @@ So, to make the problem easier, we have a spreadsheet with all the samples data 
 
 Vero told me this tanks can have 15 racks, each with 15 boxes, and each box with 100 positions. So, we agreed to have a separate sheet for each tank with this structure (at least as first draft):
 
-![First Idea](/static/images/posts/sample_map/map_structure.png)
+![First Idea](/images/posts/sample_map/map_structure.png)
 
 The idea was to create a nested dictionary with the data from the columns above. That would be our coordinates and we could used to fill the map. The challenging part was to retrieve all the information without innecesary calls to complicated methods. It was like remember how to code from scratch to make it work efficiently. 
 

@@ -19,11 +19,15 @@ I hadn't used App Script before, but what could be the problem? If only everythi
 
 So, to make the problem easier, we have a spreadsheet with all the samples data information and some columns like this:
 
+<center>
+
    Tank | Rack | Box | Position
 --------|------|-----|-----------
     1   |  1   |  1  |   9
     1   |  2   |  2  |  34
     1   |  2   |  2  |  53
+
+</center>
 
 Vero told me these tanks can have 15 racks, each with 15 boxes, and each box with 100 positions. So, we agreed to have a separate sheet for each tank with this structure (at least as first draft):
 
